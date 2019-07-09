@@ -576,4 +576,32 @@
       expect(Array.prototype.some.called).to.equal(false);
     });
   }
+  // describe('HR - Precourse: 4 - Debugging Problem 5', function() {
+  //   it('return array containing only those stickers where we have fewer than 5', function() {
+  //     var githubStickers = [
+  //       {
+  //         name: "Octocat",
+  //         qty: 12
+  //       }, 
+  //       {
+  //         name: "Luchadortocat",
+  //         qty: 2
+  //       }, 
+  //       {
+  //         name: "Gracehoppertocat",
+  //         qty: 5
+  //       }
+  //     ]
+  
+  //     var newArray = _.filter(githubStickers, function(el) {
+  //       return el.qty < 5
+  //     })
+  
+  //     expect(newArray).to.eql([{
+  //       name: "Luchadortocat",
+  //       qty: 2
+  //     }])
+  //   })
+  // })
 }());
+

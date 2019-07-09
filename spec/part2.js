@@ -477,7 +477,7 @@
 
       it('should only execute the function after the specified wait time', function() {
         _.delay(callback, 100);
-        clock.tick(99);
+        clock.tick(99); // fake timer from sinon.js
 
         expect(callback).to.have.not.been.called;
 
